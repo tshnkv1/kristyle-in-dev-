@@ -10,13 +10,6 @@ module.exports = {
     },
 
     module: {
-      loaders: [
-        {
-          test: /\.jsx?$/,
-          loader: 'babel-loader',
-          exclude: /node_modules/
-        }
-      ],
         //  webpack only understands JavaScript and JSON files. 
         // Loaders allow webpack to process other types of files 
         // and convert them into valid modules that can be consumed by your application 
