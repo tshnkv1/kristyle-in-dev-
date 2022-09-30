@@ -1,11 +1,12 @@
 import React from 'react';
+import { Header } from '../../antd/index';
 
-const Header = () => {
+const HeaderDefault = () => {
     return (
-        <header>
+        <Header>
             Header
-        </header>
+        </Header>
     );
 };
 
-export default Header;
+export default HeaderDefault;
