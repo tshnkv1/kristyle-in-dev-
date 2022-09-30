@@ -1,7 +1,11 @@
-import { Layout } from 'antd';
+import {
+    Layout,
+    Button,
+} from 'antd';
 
 export {
     Layout,
+    Button,
 }
 
 export const {
