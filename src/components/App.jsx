@@ -1,13 +1,14 @@
 import React from 'react';
 import store from "../redux/store";
 import { Provider } from 'react-redux';
+import DefaultLayout from "../layout/DefaultLayout";
 
 const App = () => {
     return (
         <Provider store={store}>
-            <div className='app-title'>
-                <h1>Welcome to React!</h1>
-            </div>
+            <DefaultLayout>
+                <div>Home page</div>
+            </DefaultLayout>
         </Provider>
     );
 };
