@@ -1,11 +1,12 @@
 import React from 'react';
+import { Footer } from '../../antd/index';
 
-const Footer = () => {
+const FooterDefault = () => {
     return (
-        <footer>
+        <Footer>
             Footer
-        </footer>
+        </Footer>
     );
 };
 
-export default Footer;
+export default FooterDefault;

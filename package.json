@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/tshnkv1/kristyle#readme",
   "dependencies": {
+    "antd": "^4.23.3",
+    "less-loader": "^11.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.4",

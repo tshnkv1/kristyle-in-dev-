@@ -1,14 +1,17 @@
 import React from 'react';
-import Header from "@components/Header/Header";
-import Footer from "@components/Footer/Footer";
+import { Layout, Content } from "../antd/index";
+import HeaderDefault from "@components/Header/Header";
+import FooterDefault from "@components/Footer/Footer";
 
 const DefaultLayout = (props) => {
     return (
-        <div className='layout'>
-            <Header />
-            <div>{props.children}</div>
-            <Footer />
-        </div>
+        <Layout>
+            <HeaderDefault />
+            <Content>
+                {props.children}
+            </Content>
+            <FooterDefault />
+        </Layout>
     );
 };
 
